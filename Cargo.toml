@@ -1,0 +1,11 @@
+[package]
+name = "s54"
+version = "0.1.0"
+authors = ["b1tg <b1tg@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3"
+tokio = { version = "0.3", features = ["full"] }
